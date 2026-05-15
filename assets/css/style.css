@@ -168,3 +168,4 @@ footer{padding:4rem 8%;background:var(--graphite);border-top:1px solid rgba(201,
 .hero-left{padding:8rem 6% 4rem}
 .areas-grid{grid-template-columns:1fr}
 }
+.floating-wa{position:fixed;bottom:2rem;right:2rem;width:60px;height:60px;background:#25d366;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 25px rgba(37,211,102,.3);z-index:999;transition:all .3s;text-decoration:none}.floating-wa:hover{transform:scale(1.1);box-shadow:0 15px 30px rgba(37,211,102,.5)}

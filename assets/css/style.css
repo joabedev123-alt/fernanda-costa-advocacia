@@ -10,11 +10,11 @@ body{background:var(--black);color:var(--ivory);font-family:var(--font-sans);ove
 img{max-width:100%;height:auto;display:block}
 a{text-decoration:none;color:inherit}
 /* NAV */
-#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:20px 5%;display:flex;align-items:center;justify-content:space-between;transition:all .4s ease;backdrop-filter:blur(0px)}
+#navbar{position:fixed;top:0;left:0;right:0;z-index:1000;padding:10px 5%;display:flex;align-items:center;transition:all .4s ease;backdrop-filter:blur(0px)}
 #navbar.scrolled{background:rgba(8,8,8,.88);backdrop-filter:blur(18px);padding:14px 5%;border-bottom:1px solid rgba(201,168,76,.12)}
 .nav-logo img{transition: transform 0.3s ease;}
 .nav-logo:hover img{transform: scale(1.05);}
-.nav-links{display:flex;gap:2.2rem;list-style:none}
+.nav-links{display:flex;gap:2.2rem;list-style:none;position:absolute;left:50%;transform:translateX(-50%);}
 .nav-links a{font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:var(--text);transition:color .3s}
 .nav-links a:hover{color:var(--gold-light)}
 .nav-cta{background:linear-gradient(135deg,var(--gold-dark),var(--gold));color:var(--black);padding:10px 22px;font-size:.78rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;border:none;cursor:pointer;transition:all .3s;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%)}
